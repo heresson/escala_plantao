@@ -1,0 +1,45 @@
+.titulo {
+    font-size: 1.2em;
+}
+.fadeOut {
+    opacity: 0;
+    transition: 1s;
+}
+table.table-bordered tbody tr:hover {
+    background-color: #ffffcc;
+}
+@media (min-width: 768px) {
+    .modal-150 {
+        width: 150px;
+        height: 50px;
+    }
+}
+#toast-container > .toast-warning {
+    color: black;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABmJLR0QA/wD/AP+gvaeTAAABfUlEQVRIx7WUv0oDQRDGfxcxKhg5RMUUQlAEC1Gs8hqClU8hiEUKhSOgjXbprFJdkTQ+gaIi1mI6k1qCiCIS/yc2e3IMd7t7Jjcwxex8N9/M7c4H9jYC1IEOUAOypGAloBfy0qAJJoBHQfIEuDYfZyxJtoFJceYCW4OawlVd9yL8OYL8X3YQQxD4fr8EU8CLgeQVmOmH5MhAEPihroijyeWBFjCm4gfgRBV1gHVgWuXegAXgPukUFdFtVeSrIl9JSjAHvIsiNYGpi/wHUEiyJ7tKRsI2boizSVSgoLqSl3shcJcRmE9g3mYSL0b8coYYYBjYM02xCHzFPNM7gW3G4L6BJR2Jr9mFtsC2NVg/bk+WgRuDaPpqw3PApgbXBVaBhrwTz1KVTw1LHNT15OGaYtdJx1WouANcG/BdVfev87JFd0FRQqQmySoHQdFSBM9EkXPL74pDwLF6ujZLOgv8ADvAhuVy5x2loKOkZ50McEu61kC955bl/03qTWDlFzdKv7QmNGYSAAAAAElFTkSuQmCC") !important;
+}
+.modal-header {
+    background-color: #CCCCCC;
+}
+/* Identidade visual MP */
+.brand-link{border-bottom:1px solid #fff;}
+[class*=sidebar-dark-]{background-color:#971c2c;}
+[class*=sidebar-dark-] .sidebar a {color: #fff;}
+[class*=sidebar-dark] .brand-link {border-bottom: 1px solid #fff;}
+
+/* Grid votação */
+@media (min-width: 768px) {
+    .grid-votacao {
+        width: 100%;
+    }
+    .grid-votacao > .card {
+        min-width: 23%;
+        max-width: 23%;
+        margin-bottom: 10px;
+    }
+    .votacao-relator {
+        min-width: 23%;
+        max-width: 23%;
+        margin-bottom: 10px;
+    }
+}
